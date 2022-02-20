@@ -1,0 +1,21 @@
+.container
+  .rubiks-cube.rubiks-cube-1
+    - (1...28).each do |i|
+      .detail
+        .side.front
+        .side.back
+        .side.top
+        .side.bottom
+        .side.left
+        .side.right
+
+  .reflection
+    .rubiks-cube.rubiks-cube-1
+      - (1...28).each do |i|
+        .detail
+          .side.front
+          .side.back
+          .side.top
+          .side.bottom
+          .side.left
+          .side.right
